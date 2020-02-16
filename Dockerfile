@@ -16,4 +16,6 @@ RUN cd /opt/ &&\
 	
 WORKDIR /opt/kafka/
 
+ENV KAFKA_HOME=/opt/kafka
+
 COPY properties/* ./config/

@@ -1,9 +1,0 @@
-version: "3"
-services:
-  myzookeeper:
-    image: acolasz/myzookeeper:0.0.1
-    container_name: myzookeeper-1
-    ports:
-      - 2181:2181
-    volumes:
-      - c:\Users\beerl\workspace\github\docker\kafka\logs:/var/run/docker.sock
